@@ -1,0 +1,10 @@
+{% extends 'h5_base.html' %}
+
+{% block content %}
+<h1>This is my homepage</h1>
+<ul>
+{% for h5 in highfives %}
+<li>{{ h5 }}</li>
+{% endfor %}
+</ul>
+{% endblock %}
